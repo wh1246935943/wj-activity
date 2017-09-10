@@ -1,0 +1,68 @@
+.pomp .pomp-tittle {
+    color: #9d9d9d;
+}
+
+.pomp .pomp-p {
+    text-indent: 2em;
+    line-height: 2em;
+}
+/*.pomp-btn button{*/
+    /*margin-left: 10px;*/
+/*}*/
+.pomp-btn .button-join{
+    background-color: #f68e2f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    height: 35px;
+    width: 100px;
+}
+.pomp-btn .button-white{
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    height: 35px;
+    width: 100px;
+}
+
+
+
+.pomp-read {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.pomp-read span{
+    padding-left: 5px;
+    font-size: 12px;
+}
+.pomp-img {
+    margin: 30px auto;
+}
+.pomp-active{
+    font-size: 15px;
+    font-weight: bold;
+}
+.pomp-hot{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pomp-num{
+    font-weight: normal;
+    font-size: 14px;
+}
+.pomp-margin{
+    margin-top: 10px;
+}
+.button-join:hover{
+background-color: #c96500;
+}
+

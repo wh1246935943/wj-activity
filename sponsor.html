@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贊助報名表</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="js/bundle.js"></script>
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="stylesheet" href="css/active-signup.css">
+</head>
+<body>
+<wj-header></wj-header>
+<wj-breadcrumb breadcrumb-data='[{"name":"首頁","url":"home.html"},{"name":"精彩活動列表","url":"consultation-list.html"},
+{"name":"活動詳情","url":"activity-details.html"},
+{"name":"贊助報名","url":"signup.html"}]'></wj-breadcrumb>
+
+<div class="container">
+    <div class="row">
+        <div class="signup-content">
+            <div class="col-670">
+                <div class="panel panel-default comment-write">
+                    <div class="signup-list-nav panel-heading text-center">
+                        贊助報名表
+                    </div>
+                    <div class="signup-list-content panel-body">
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text sponsor-pay col-xs-10">
+                                報名表審核通過後會聯系付款。
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                贊助方式:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <select class="shop-name">
+                                    <option value="">攤位入住</option>
+                                    <option value="">攤位入住2</option>
+                                    <option value="">攤位入住3</option>
+                                </select>
+                                <select class="shop-count">
+                                    <option value="">3個</option>
+                                    <option value="">3個a</option>
+                                    <option value="">3個b</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                贊助時間:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <select class="shop-name">
+                                    <option value="">2周</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                公司名稱:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input type="text" class="width-input">
+                            </div>
+                        </div>
+
+
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                聯系人：
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input type="text" >
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text white-space col-xs-2">
+                                聯系人電話：
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input type="text" >
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text white-space col-xs-2">
+                                聯系人郵箱:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input type="text" class="width-input">
+                            </div>
+                        </div>
+
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                驗證碼：
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <div class="input-group">
+                                    <input  type="text" class="form-control" placeholder="請輸入驗證碼" aria-describedby="basic-addon2">
+                                    <span class="btn input-group-addon" id="basic-addon2">PPQVDF</span>
+
+                                </div>
+                                <div class="change-sponsor">
+                                    看不清？換壹張
+                                </div>
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                費用:
+                            </div>
+                            <div class="signup-form-input price-style col-xs-10">
+                                $ 10000
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form signup-agree row">
+                            <div class="signup-form-text col-xs-2">
+
+                            </div>
+                            <div class="agree col-xs-10">
+                                <input id="item3" type="checkbox" name="item">
+                                <label for="item3"></label>
+                                <span>我已閱讀並同意贊助協議</span>
+                            </div>
+                        </div>
+                        <div class="signup-list-content-submit">
+                            <button>
+                                提交
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-300">
+            <div class="panel panel-default comment-write">
+                <div class="panel-heading text-center">活動信息</div>
+                <div class="panel-body">
+                    <div class="active-picture"><img src="image/summer.png" class="center-block" width="95%"/></div>
+                    <div class="title center-block">
+                        <div class="text">2017夏日微風: Keith Sweat, Monica, Brandy & More!</div>
+                        <div class="type"><span>音樂 </span><span> / </span><span> 演出</span></div>
+                        <div class="time">Sun, April 30, 2017 11:00 AM - 8:30 PM</div>
+                        <div>1220 S Diamond Bar Blvd # D Diamond Bar, CA, 91765</div>
+                        <div>(909) 367-2829</div>
+                        <div class="price"><span>價格: </span><span class="price-type">免費</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<wj-footer></wj-footer>
+</body>
+</html>

@@ -1,0 +1,149 @@
+/*赞助信息详情开始*/
+.sponsor .nav {
+    height: 34px;
+    line-height: 34px;
+    background: #e8e8e8;
+}
+
+.sponsor .red {
+    color: red;
+}
+
+.sponsor .content .img img {
+    height: 220px;
+    width: 351px;
+}
+
+.sponsor .content .activity-detail {
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+}
+
+.sponsor .content .activity-detail h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sponsor .content .activity-detail .time .blue {
+    color: #4185d8;
+    font-weight: normal;
+    font-size: 14px;
+
+}
+
+.sponsor .content .activity-detail .time {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.sponsor .content .activity-detail .price {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sponsor .content .activity-detail .price .red {
+    color: red;
+    font-weight: 600;
+}
+
+.sponsor .content .activity-detail .price .num {
+    font-size: 12px;
+}
+
+.sponsor .content .activity-detail .text .button {
+    padding: 10px 21px;
+    font-size: 16px;
+    color: white;
+    background: #f68e2f;
+    border: none;
+    border-radius: 0;
+}
+
+.sponsor .content .activity-detail .text h4 {
+    margin-top: 0;
+}
+
+.sponsor .panel-title {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 10px 14px;
+}
+
+.sponsor .panel-body {
+    margin-left: 14px;
+    padding-top: 24px;
+}
+
+.sponsor .panel-body p {
+    font-size: 14px;
+    color: #1d1d1d;
+}
+
+.sponsor .panel-body .part {
+    margin-top: 26px;
+}
+
+.sponsor .panel-body .part h5 {
+    font-weight: 800;
+    color: #f88c31;
+}
+
+.sponsor .activity-content {
+    margin-top: 20px;
+}
+
+.sponsor .sidelights .sidelightsHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor .sidelights .sidelightsHead p {
+    margin: 0;
+    line-height: 34px;
+}
+
+.sponsor .titleName {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.sponsor .sidelights .sidelightsMsg {
+    color: #3f86d6;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.sponsor .sidelights .sidelightsMsg .span {
+    padding: 0 5px;
+    border-left: 1px solid #3f86d6;
+}
+
+.sponsor .sidelights .sidelightsFoot {
+    padding: 0;
+    font-size: 12px;
+    color: #888;
+}
+
+.sponsor .navBar {
+    padding-left: 0;
+}
+
+.sponsor .mapManager {
+    margin-bottom: 20px;
+}
+.sponsor .message .date {
+    font-size: 8px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+.sponsor .message p{
+    font-size:14px;
+    color: #1e1e1e;
+    margin-bottom: 8px;
+}
+
+
+
+/*赞助信息详情结束*/

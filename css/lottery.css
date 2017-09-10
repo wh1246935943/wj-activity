@@ -1,0 +1,158 @@
+/*抽奖页面开始*/
+
+
+.lottery .banner-bar{
+    width: 100%;
+    height:40px;
+    background: #dcdcdc;
+}
+.lottery .banner-bar .center-block{
+    /*width: px;*/
+    padding:10px 0;
+}
+.lottery .banner-bar .center-block p{
+    margin:0;
+}
+.lottery .banner-bar .center-block p span{
+    color:#e72f2f;
+}
+
+.lottery .text-content{
+    height:auto;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+.text-content .col-xs-8{
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+}
+.text-content .introduce-lot{
+    border: 1px solid #dddddd;
+    padding-bottom: 50px;
+}
+.text-content .introduce-lot .top{
+    width: 100%;
+    height:40px;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 40px;
+    color:#1f1f1f;
+    font-weight: bold;
+}
+.text-content .introduce-lot .title h3{
+    font-family: "新宋体";
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    color:#1e1e1e;
+}
+.text-content .introduce-lot .prize-winner{
+    padding:20px;
+    font-size: 15px;
+    font-family: "黑体";
+    color:#1e1e1e;
+}
+.text-content .introduce-lot .lottery-btn{
+    width: 100%;
+    padding:30px 0;
+}
+.text-content .introduce-lot .lottery-btn p{
+    text-align: center;
+    color:#1e1e1e;
+    font-family: "黑体";
+}
+.text-content .introduce-lot .lottery-btn p span{
+    color:#e72f2f;
+}
+.text-content .introduce-lot .lottery-btn button{
+    color:#fff;
+    background: #f68e2f;
+    font-size: 22px;
+    font-family: "黑体";
+    display: block;
+    margin: 0 auto;
+    padding:19px 80px;
+    border: none;
+    outline: none;
+}
+.text-content .winner-list{
+    width: 100%;
+    height:auto;
+    /*background: red;*/
+    margin-top:10px;
+    font-size: 16px;
+    color:#1e1e1e;
+    font-family: "黑体";
+    border: 1px solid #dddddd;
+}
+.text-content .winner-list .top{
+    width: 100%;
+    padding:10px 20px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+}
+.text-content .winner-list .list{
+    padding:30px 20px;
+    text-align: center;
+}
+
+/*活动信息开始*/
+/*.text-content .col-xs-4{*/
+    /*!*padding-right: 0;*!*/
+/*}*/
+.text-content .contact{
+    border: 1px solid #dddddd;
+}
+
+.text-content .contact .top{
+    width: 100%;
+    height:40px;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #dddddd;
+    color:#1f1f1f;font-weight: bold;
+}
+.text-content .contact .contact-text{
+    padding:20px;
+}
+.text-content .contact .contact-text .pic img{
+    width: 100%;
+}
+.text-content .contact .contact-text .text-info{
+    margin-top: 20px;
+    color:#1e1e1e;
+}
+.text-content .contact .contact-text .text-info .title{
+    font-size: 20px;
+    font-family: "新宋体";
+    font-weight: bold;
+    color:#1e1e1e;
+    line-height: 20px;
+}
+.text-content .contact .contact-text .text-info > span{
+    font-size: 14px;
+    font-family: Arial;
+}
+.text-content .contact .contact-text .text-info p:nth-child(3){
+    color:#4284d8;
+}
+.text-content .contact .contact-text .text-info p:last-child span{
+    color:#e72e2c;
+}
+/*活动信息结束*/
+
+/*热门推荐标题开始*/
+.abo-hot-rec{
+    padding:10px;
+    color:#1e1e1e;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+/*热门推荐标题结束*/
+
+
+/*抽奖页面结束*/
+
+

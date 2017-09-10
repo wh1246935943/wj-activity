@@ -1,0 +1,273 @@
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.display-inner-part{
+    float: left;
+}
+
+/*--------navigations--------*/
+#expand-nav{
+    display:none;
+}
+.gap-between-parts{
+    margin-top:10px;
+}
+.navigations-con{
+    border:1px solid #ddd;
+    /*padding-left:-15px;*/
+    /*padding-right:-15px;*/
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.navigations-con hr{
+    margin:auto;
+    width: 95%;
+}
+.depart-top .name,
+.depart-top .citys{
+    line-height: 3.5em;
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    margin-left: 20px;
+}
+.depart-top .name-parts,
+.depart-top .citys-parts{
+    line-height: 4em;
+    color: #333;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.depart-top a:hover{
+    color:#e52d2d;
+    text-decoration: none;
+}
+.paddings-leave{
+    padding-left:70px
+}
+.sections{
+    position: relative;
+}
+.depart-bottom{
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top:1px solid #ddd;
+    background-color: #f5f5f5;
+    line-height:3em;
+}
+.depart-top{
+    background-color: #f5f5f5;
+    line-height:3em;
+    text-align: center;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+#expands-info-con{
+    /*display: none;*/
+}
+.expand-more{
+    cursor: pointer;
+}
+.expands-show{
+    display: none;
+}
+
+/*--------list--------*/
+.merchants-chart,
+.consultation-chart,
+.amazing-list-chart{
+    margin-top:10px;
+}
+.calendar-list-con .check-info{
+    border: 1px solid #dddddd;
+    border-bottom: 0;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:0px;
+    padding-right:15px;
+    line-height: 35px;
+    margin:0
+}
+.merchant-info,
+.consultation-info,
+.calendar-info,
+.amazing-list-info{
+    border: 1px solid #dddddd;
+    border-bottom: 0;
+    padding:18px;
+    margin:0;
+}
+.calendar-info .title a:hover,
+.amazing-list-info .title a:hover{
+    text-decoration: none;
+    color:#1f1f1f;
+}
+.consultation-info .title a:hover,
+.merchant-info .title a:hover{
+    text-decoration: none;
+    color:#3e87d6;
+}
+.merchant-info .right-info .details a:hover,
+.consultation-info .right-info .details a:hover,
+.calendar-info .right-info .details a:hover,
+.amazing-list-info .right-info .details a:hover{
+    color:#ffffff
+}
+.calendar-chart .calendar-list-con .check-info .details:hover,
+.merchant-info .right-info .details:hover,
+.consultation-info .right-info .details:hover,
+.calendar-info .right-info .details:hover,
+.amazing-list-info .right-info .details:hover{
+    background-color:#c96500;
+}
+
+.merchant-info .pic-con,
+.consultation-info .pic-con,
+.calendar-info .pic-con,
+.amazing-list-info .pic-con{
+    padding-left: 0;
+}
+.merchant-info .right-info,
+.consultation-info .right-info,
+.calendar-info .right-info,
+.amazing-list-info .right-info{
+    padding:0;
+    margin:0;
+}
+.merchant-info .right-info .title{
+    font-size:14px ;
+    font-weight: bold;
+    color: #3e87d6;
+}
+.consultation-info .right-info .title{
+    font-size:14px ;
+    font-weight: bold;
+    color: #3e87d6;
+    padding-bottom: 0.5em;
+}
+.amazing-list-info .right-info .text-info,
+.merchant-info .right-info .text-info{
+    font-size: 12px;
+    color: #1f1f1f;
+    line-height: 2em;
+}
+.consultation-info .right-info .text-info{
+    font-size: 12px;
+    color: #888888;
+    line-height: 2em;
+}
+.calendar-info .right-info .text-info{
+    font-size: 12px;
+    color: #1f1f1f;
+    line-height: 2em;
+}
+.merchant-info .right-info .expressions{
+    padding-bottom: 12px;
+    color:#888888;
+}
+.consultation-info .expressions{
+    font-size: 12px;
+    line-height:1.8em;
+    padding-top:8px;
+    color:#888888;
+
+}
+.calendar-chart .calendar-list-con .check-info .details{
+    font-size: 12px;
+    color:#fefefe;
+    font-weight: bolder;
+    height:34px;
+    line-height: 34px;
+    background-color: #f68e2f;
+    cursor: pointer;
+}
+.merchant-info .right-info .details{
+    font-size: 12px;
+    color:#fefefe;
+    font-weight: bolder;
+    height:34px;
+    line-height: 34px;
+    background-color: #f68e2f;
+    width:110px;
+    cursor: pointer;
+}
+
+.amazing-list-info .right-info .details,
+.consultation-info .right-info .details{
+    font-size: 12px;
+    color:#fefefe;
+    font-weight: bolder;
+    height:34px;
+    line-height: 34px;
+    background-color: #f68e2f;
+    width:80px;
+    cursor: pointer;
+}
+.amazing-list-info .right-info .types-info{
+    padding-top: 1em;
+    width:80px;
+    font-size: 12px;
+}
+.consultation-info .right-info .types-info {
+    padding-top: 2em;
+    width:80px;
+    font-size: 12px;
+}
+.calendar-info .right-info .payment,.amazing-list-info .right-info .payment{
+    color:#e52d2f;
+    font-weight: bold;
+    line-height: 2em;
+    font-size: 14px;
+}
+.calendar-info .right-info .types-info {
+    font-size: 12px;
+    line-height: 2em;
+}
+#map{
+    border:1px solid #ddd;
+}
+.merchants-right-con{
+    padding:0;
+    margin:0px;
+}
+.merchants-right-con .calendar,
+.merchants-right-con .img-con{
+    margin-top:5px;
+    /*border: 1px solid #dddddd;*/
+}
+.merchants-right-con .calendars,
+.merchants-right-con .tops{
+    border: 1px solid #dddddd;
+}
+.merchants-right-con .img-con {
+    margin-top:5px;
+}
+.merchant-info img,
+.consultation-info img,
+.calendar-info img,
+.amazing-list-info img{
+    width:100%;
+}
+.depart-bottom-button,.depart-bottom-text{
+    padding-left:2%;
+    padding-right:2%;
+    cursor: pointer;
+}
+.depart-bottom-button:hover{
+    background-color: #feffff;
+}
+.amazing-list-info.bottom-one,
+.merchant-info.bottom-one,
+.consultation-info.bottom-one,
+.calendar-info.bottom-one{
+    border-bottom: 1px solid #dddddd;
+}
+.activity-content .activity-content .hot-actives{
+    line-height: 2.5em;
+}

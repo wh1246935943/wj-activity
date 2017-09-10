@@ -1,0 +1,225 @@
+/*wj-活动——活动详情-开始*/
+.activity-details {
+    /*活动详情*/
+}
+
+.activity-details .content {
+    margin-bottom: 20px;
+}
+
+.activity-details .content .img img {
+    height: 220px;
+    width: 351px;
+}
+
+.activity-details .content .activity-detail {
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+}
+
+.activity-details .content .activity-detail h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.activity-details .content .activity-detail .time .blue {
+    color: #4185d8;
+    font-weight: normal;
+    font-size: 14px;
+
+}
+
+.activity-details .content .activity-detail .sign-up {
+    background: #f68e2f;
+}
+
+.activity-details .content .activity-detail .sign-up:hover{
+    background: #c96500;
+}
+
+.activity-details .content .activity-detail .time {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.activity-details .num{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.activity-details .content .activity-detail .price {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.activity-details .content .activity-detail .price .red {
+    color: red;
+    font-weight: 600;
+}
+
+.activity-details .content .activity-detail .price .num {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.activity-details .content .activity-detail .text button {
+    padding: 10px 21px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+.activity-details .content .clearfix-msg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-details .content .clearfix-msg span {
+    padding: 2px 5px;
+}
+
+.activity-details .content .clearfix-msg .review-msg span {
+    font-size: 14px;
+    color: #4286d9;
+    cursor: pointer;
+}
+
+.activity-details .content .clearfix-msg .special-msg {
+    border-left: 2px solid #4286d9;
+    line-height: 5px;
+}
+
+.activity-details .sidelights {
+    /*活动详情-活动花絮*/
+}
+
+.activity-details .sidelights img {
+    width: 200px;
+    height: 124px;
+}
+
+.activity-details .sidelights .sidelights-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-details .sidelights .sidelights-head p {
+    margin: 0px;
+    cursor: pointer;
+}
+
+.comment .title-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.activity-details .sidelights .sidelights-msg {
+    color: #3f86d6;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.activity-details .sidelights .sidelights-msg .span {
+    padding: 0px 5px;
+    border-left: 1px solid #3f86d6;
+
+}
+.activity-details .sidelights .sidelights-msg span{
+    cursor: pointer;
+}
+
+.activity-details .sidelights .sidelights-foot {
+    padding: 0px;
+    font-size: 12px;
+    color: #888;
+}
+
+.activity-details .detail {
+    /*活动详情-活动详情*/
+}
+
+.activity-details .detail-content {
+    padding: 18px;
+}
+
+.activity-details .pages-button .search-pages {
+    line-height: 79px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity-details .pages-button .search-input {
+    width: 30px;
+    /*float: left;*/
+    margin-top: 22px;
+    /*margin-right: 5px*/
+}
+
+.activity-details .pages-button .search-input input {
+    padding: 0;
+    text-align: center;
+}
+
+.activity-details .pages-button .search-jump {
+    margin: 0 10px 0 20px;
+}
+
+.activity-details .pages-button .search-page-text {
+    margin: 0 7px 0 7px;
+}
+
+.activity-details .nav-bar {
+    padding-left: 0px;
+}
+
+.activity-details .map-manager {
+    margin-bottom: 20px;
+}
+
+.activity-details .price-list {
+    /*价格列表*/
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.activity-details .hot-title{
+    line-height:46px ;
+    font-size: 14px;
+}
+
+.activity-details .price-list .list-msg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+.activity-details .price-list .list-msg .list-msg-price {
+    font-size: 18px;
+    color: red;
+}
+
+.activity-details .price-list .list-msg .list-type {
+    margin-left: 20px;
+}
+
+.activity-details .price-list .list-msg h4 {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.activity-details .price-list .list-msg p {
+    margin: 0px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+/*wj-活动——活动详情-结束*/
+

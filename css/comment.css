@@ -1,0 +1,72 @@
+.comment-write{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.comment-write .write-reviews{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.comment-write .write-reviews .comment{
+    padding-right: 0px;
+    color: black;
+}
+.comment-write .write-reviews .article{
+    outline: none;
+    height: 120px;
+}
+.comment-write .write-reviews .expression {
+    margin-top: 105px;
+    color: #888888;
+}
+.comment-write .line-height-2{
+    color: black;
+    line-height: 2em;
+}
+.comment-write .text-grew{
+    color:#888888;
+}
+.comment-write .image{
+    margin-top: 18px;
+    margin-left: 68px;
+}
+.comment-write .image .del{
+    position: relative;
+}
+.comment-write .image .del .black{
+    width:90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    position: absolute;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    top:-37px;
+    left:0;
+}
+.comment-write .image .del .black span{
+    color: white;
+}
+.comment-write .image .del:hover .black{
+    display: block;
+}
+.comment-write .btn-warning{
+    margin-top: 32px;
+    margin-bottom: 26px;
+    font-weight: bold;
+    height: 38px;
+    width:160px;
+    color: #fefefe;
+    background-color: #ff7200;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+}
+.comment-write .btn-warning:hover{
+    background-color: #c96500;
+}
+.comment-write .hot-title{
+    line-height:46px ;
+    font-size: 14px;
+}
+
+

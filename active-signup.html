@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>活動填報</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="stylesheet" href="css/active-signup.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="js/bundle.js"></script>
+</head>
+<body>
+<wj-header></wj-header>
+<wj-breadcrumb breadcrumb-data='[{"name":"首頁","url":"home.html"},{"name":"精彩活動列表","url":"consultation-list.html"},
+{"name":"精彩詳情","url":"activity-details.html"},
+{"name":"活動填報","url":"active-signup.html"}]'></wj-breadcrumb>
+<div class="container">
+    <div class="row">
+        <div class="signup-content">
+            <div class="col-670">
+                <div class="panel panel-default comment-write">
+                    <div class="signup-list-nav panel-heading text-center">
+                        活動報名填表
+                    </div>
+                    <div class="signup-list-content panel-body">
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                中文牲名:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input type="text" >
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row"   >
+                            <div class="signup-form-text col-xs-2">
+                                性別:
+                            </div>
+                            <div class="signup-form-input input-radio col-xs-10">
+                                <div class="sex col-xs-2">
+                                    <input id="item1" type="radio" name="item" value="男" checked>
+                                    <label for="item1"></label>
+                                    <span>男</span>
+                                </div>
+                                <div class="sex col-xs-2">
+                                    <input id="item2" type="radio" name="item" value="女">
+                                    <label for="item2"></label>
+                                    <span>女</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2" >
+                                生日:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input class="img-input" type="text" id="birthday">
+                            </div>
+                        </div>
+
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                年齡：
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input type="text" >
+                            </div>
+                        </div>
+
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                聯酪地址:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input class="width-input" type="text">
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row" >
+                            <div class="signup-form-text col-xs-2">
+                                電話：
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input class="width-input" type="text">
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                電子郵件:
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <input class="width-input" type="text">
+                            </div>
+                        </div>
+                        <div class="signup-list-content-form signup-agree row">
+                            <div class="signup-form-text col-xs-2">
+
+                            </div>
+                            <div class="agree col-xs-10">
+                                <input id="item3" type="checkbox" name="item">
+                                <label for="item3"></label>
+                                <span>我已閱讀並同意慘賽辦法</span>
+                            </div>
+                        </div>
+
+                        <div class="signup-list-content-form row">
+                            <div class="signup-form-text col-xs-2">
+                                驗證碼：
+                            </div>
+                            <div class="signup-form-input col-xs-10">
+                                <div class="input-group">
+                                    <input  type="text" class="form-control" placeholder="請輸入驗證碼" aria-describedby="basic-addon2">
+                                    <span class="btn input-group-addon" id="basic-addon2">PPQVDF</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="signup-list-content-submit">
+                            <button>
+                                提交報名表
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-300">
+                <div class="panel panel-default comment-write">
+                    <div class="panel-heading text-center">活動信息</div>
+                    <div class="panel-body">
+                        <div class="active-picture"><img src="image/summer.png" class="center-block" width="95%"/></div>
+                        <div class="title center-block">
+                            <div class="text">2017夏日微風: Keith Sweat, Monica, Brandy & More!</div>
+                            <div class="type"><span>音樂 </span><span> / </span><span> 演出</span></div>
+                            <div class="time">Sun, April 30, 2017 11:00 AM - 8:30 PM</div>
+                            <div>1220 S Diamond Bar Blvd # D Diamond Bar, CA, 91765</div>
+                            <div>(909) 367-2829</div>
+                            <div class="price"><span>價格: </span><span class="price-type">免費</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--活動信息結束-->
+
+<!--main.start-->
+<div class="container main">
+    <div class="hot-title row">
+        熱門活動
+    </div>
+    <div class="activity-content">
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="travel">
+                <div class="activity-content">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>2大死亡谷國家公員深度探險開始報名</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>環球影城優先票淡季票：享受優先通道免除...</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>房車原生態露營體驗：體驗招募開始啦！</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="ticket">
+                <div class="activity-content">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/universal-studios.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>2大死亡谷國家公員深度探險開始報名</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/universal-studios.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>環球影城優先票淡季票：享受優先通道免除...</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/universal-studios.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>房車原生態露營體驗：體驗招募開始啦！</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/touring-car.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>刺激體驗 洛杉磯實彈射擊俱樂部</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/touring-car.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>（5折優惠）City Pass票玩轉美國幾大熱門城市</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/touring-car.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>組團慘觀芝加哥大居院、深度體驗建築特色</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="charitable">
+                <div class="activity-content">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/touring-car.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>刺激體驗 洛杉磯實彈射擊俱樂部</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/touring-car.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>（5折優惠）City Pass票玩轉美國幾大熱門城市</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/touring-car.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>組團慘觀芝加哥大居院、深度體驗建築特色</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>2大死亡谷國家公員深度探險開始報名</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>環球影城優先票淡季票：享受優先通道免除...</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="section">
+                                <div class="img-box">
+                                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                                </div>
+                                <h5><strong>房車原生態露營體驗：體驗招募開始啦！</strong></h5>
+                                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                                <span>旅遊</span>
+                                <span class="line">|</span>
+                                <span>交友</span>
+                                <span class="line">|</span>
+                                <span>探險</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--main.end-->
+<wj-footer></wj-footer>
+</body>
+</html>

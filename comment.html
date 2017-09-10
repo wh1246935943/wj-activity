@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>點評</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/bundle.js"></script>
+    <link rel="stylesheet" href="css/bundle.css">
+    <link rel="stylesheet" href="css/comment.css">
+</head>
+<body>
+<wj-header></wj-header>
+<wj-breadcrumb breadcrumb-data='[{"name":"首頁","url":"home.html"},{"name":"精彩活動列表","url":"amazing-list.html"},{"name":"精彩詳情","url":"activity-show.html"},{"name":"填表報名","url":"message-board.html"}]'></wj-breadcrumb>
+<div class="container comment-write">
+    <div class="row">
+        <div class="col-670">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center">寫點評</div>
+                <div class="panel-body ">
+                    <div class="row write-reviews">
+                        <span class="comment col-xs-1">點評:</span>
+                        <textarea name="" placeholder="其他买家,需要您的宝贵建议哦!" class="col-xs-9 article" cols="30"
+                                  rows="10"></textarea>
+                        <div class="col-xs-2">
+                            <div class="expression"><img src="image/comment/笑脸.svg" width="16">表情</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="line-height-2">上傳多媒體文件: (圖片最多6張,視頻最多1個)</div>
+                        <div class="line-height-2 text-grew">按住Ctrl或Shift可以多選圖片,單張圖片不超過10M;單個視頻不超過20M。</div>
+                        <div class="image">
+                            <span>
+                                <label for="file">
+                                    <img src="image/comment/2017-08-02_144532.png" height="90"/>
+                                    <input class="add" type="file" id="file" style="display: none"/>
+                                </label>
+
+                            </span>
+                            <span class="del">
+                                <div class="black">
+                                    <span class="">删除</span>
+                                </div>
+                                <img src="image/comment/2017-08-02_144555.png" height="90"/>
+                            </span>
+                            <span class="del">
+                                <div class="black">
+                                    <span>删除</span>
+                                </div>
+                                <img src="image/comment/2017-08-02_144555.png" height="90"/>
+                            </span>
+                        </div>
+                        <button class="center-block btn btn-warning">提交點評</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-300">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center">活動信息</div>
+                <div class="panel-body">
+                    <div class="active-picture"><img src="image/summer.png" class="center-block" width="95%"/></div>
+                    <div class="title center-block">
+                        <div class="text">2017夏日微風: Keith Sweat, Monica, Brandy & More!</div>
+                        <div class="type"><span>音樂 </span><span> / </span><span> 演出</span></div>
+                        <div class="time">Sun, April 30, 2017 11:00 AM - 8:30 PM</div>
+                        <div>1220 S Diamond Bar Blvd # D Diamond Bar, CA, 91765</div>
+                        <div>(909) 367-2829</div>
+                        <div class="price"><span>價格: </span><span class="price-type">免費</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="hot-title row">熱門活動推薦</div>
+</div>
+<div class="activity-content container">
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="section">
+                <div class="img-box">
+                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                </div>
+                <h5><strong>2大死亡谷國家公園深度探險開始報名</strong></h5>
+                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                <span>旅遊</span>
+                <span class="line">|</span>
+                <span>交友</span>
+                <span class="line">|</span>
+                <span>探險</span>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="section">
+                <div class="img-box">
+                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                </div>
+                <h5><strong>環球影城優先票淡季票：享受優先通道免除...</strong></h5>
+                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                <span>旅遊</span>
+                <span class="line">|</span>
+                <span>交友</span>
+                <span class="line">|</span>
+                <span>探險</span>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="section">
+                <div class="img-box">
+                    <img src="image/death-valley-park.png" class="img-responsive"/>
+                </div>
+                <h5><strong>房車原生態露營體驗：體驗招募開始啦！</strong></h5>
+                <p>Sun.April 30,20'7'1:00 AM-8:30 PM <br>
+                    4J5-lilcard Rd Los Angeles,CA 90C95 Untec...</p>
+                <span>旅遊</span>
+                <span class="line">|</span>
+                <span>交友</span>
+            </div>
+        </div>
+    </div>
+</div>
+<wj-footer></wj-footer>
+</body>
+</html>

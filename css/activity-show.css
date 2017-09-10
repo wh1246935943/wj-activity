@@ -1,0 +1,36 @@
+.bg-img{
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img-width{
+    width: 100%;
+}
+.pageButton{
+    background-color: white;
+    border: 1px solid silver;
+    padding: 3px 7px;
+}
+.joinButton{
+    border: none;
+    background-color: #f98f29;
+    color: #f9f9f9;
+    padding:5px 10px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.writeButton{
+    border: none;
+    color: #f9f9f9;
+    padding:5px 10px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.joinButton:hover{
+    background-color: #c96500;
+}
+.spanCursor{
+    cursor: pointer;
+}

@@ -1,0 +1,143 @@
+.activities .view-list {
+    height: 50px;
+    line-height: 50px;
+    /*font-weight: 700;*/
+    font-size: 12px;
+    color: #1e1e1e;
+}
+.activities .view-list a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #1e1e1e;
+}
+.activities .view-list .click-color{
+    color: #3f86d6;
+}
+
+.activities .main .show-data a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #3f86d4;
+    font-size: 12px;
+}
+
+.activities .main .pages-button {
+    display: flex;
+    margin: auto;
+}
+
+.activities .main span {
+    margin-right: 3px;
+    color: #3f86d4;
+    font-size: 12px;
+}
+
+.activities .main .tidbits {
+    color: #888888;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.activities .main .show {
+    /*height: 125px;*/
+    width: 100%;
+}
+.activities .main .show  a{
+   display: inline;
+}
+
+.activities .main {
+    padding: 0 8px 0 8px;
+}
+
+.activities .main .show-place {
+    padding: 0 8px 0 8px;
+}
+
+.activities .main img {
+    width: 100%;
+}
+
+.activities .main .show-data {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+/*.activities .message .date {*/
+    /*font-size: 8px;*/
+    /*color: #888888;*/
+    /*margin-bottom: 5px;*/
+/*}*/
+
+/*.activities .message .title {*/
+    /*margin-top: 3px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+/*.activities .message .title a{*/
+ /*text-decoration: none;*/
+    /*font-size: 12px;*/
+    /*color: #1e1e1e;*/
+    /*!*font-weight: bold;*!*/
+/*}*/
+/*.activities .pages-button .search-pages {*/
+    /*line-height: 79px;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+/*}*/
+
+/*.activities .pages-button .search-input {*/
+    /*width: 30px;*/
+    /*!*float: left;*!*/
+    /*margin-top: 22px;*/
+    /*!*margin-right: 5px*!*/
+/*}*/
+
+/*.activities .pages-button .search-input input {*/
+    /*padding: 0;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.activities .pages-button .search-jump {*/
+    /*margin: 0 10px 0 20px;*/
+/*}*/
+
+/*.activities .pages-button .search-page-text {*/
+    /*margin: 0 7px 0 7px;*/
+/*}*/
+
+.activities .left {
+    padding: 0;
+}
+
+/*.activities .right {*/
+    /*padding: 0 0 0 10px;*/
+/*}*/
+
+/*.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {*/
+    /*z-index: 3;*/
+    /*color: #fff;*/
+    /*cursor: default;*/
+    /*background-color: #ff8500;*/
+    /*border-color: #ff8500;*/
+/*}*/
+.activities  .hot-title{
+    line-height:46px ;
+    font-size: 14px;
+}
+.activities{
+    margin-top: 10px;
+}
+.activities .activity-content .recommended{
+    padding: 0;
+}
+/*.activities .active-title{*/
+    /*font-size: 12px;*/
+    /*line-height: 20px;*/
+    /*color: #1e1e1e;*/
+    /*font-weight: bold;*/
+    /*height: 40px;*/
+/*}*/

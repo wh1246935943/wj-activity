@@ -1,0 +1,270 @@
+input{
+    padding-left: 12px;
+}
+.signup-content{
+    margin: 10px auto;
+}
+.signup-content .signup-list .signup-list-nav{
+    border-bottom: 1px solid #dddddd;
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+.signup-list-content{
+    padding-top: 20px;
+
+}
+.signup-list-content-form{
+    width: 90%;
+    margin-top: 10px;
+}
+.signup-agree{
+    margin-top:16px;
+    margin-bottom: 20px;
+    margin-left: -4px;
+}
+.signup-list-content-form .signup-form-text{
+    font-size: 12px;
+    line-height: 40px;
+    color: #888888;
+    padding-right: 0;
+}
+.signup-list-content-form .white-space{
+   white-space: nowrap;
+}
+.signup-list-content-form .signup-form-input input{
+    width: 45%;
+    height: 40px;
+    border: 1px solid #dddddd;
+}
+.signup-list-content-form .signup-form-input .img-input{
+    background-image: url('../image/arrow.png');
+    background-size:auto 30%;
+    background-repeat: no-repeat;
+    background-position:95%;
+}
+.signup-list-content-form .signup-form-input input[class="width-input"]{
+    width: 80%;
+}
+.signup-list-content-form .signup-form-input input{
+    outline: none;
+    box-shadow: none;
+}
+.signup-list-content-form .signup-form-input .textarea{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    color: #be1100
+}
+.signup-list-content-form .input-radio{
+    line-height: 40px;
+    margin-top: 10px;
+}
+.signup-list-content-form span{
+    font-size: 12px;
+}
+.signup-list-content-form .signup-form-input .input-group{
+    width: 60%;
+}
+.signup-list-content-form .signup-form-input .input-group input{
+    width: 100%;
+    border-radius: 0;
+}
+.signup-list-content-form .signup-form-input .input-group span{
+    width: 100px;
+    color: white;
+    background-color: #3f86d6;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+.signup-list-content-form .signup-form-input .input-group span:hover{
+    background-color: #3c4a95;
+}
+.signup-list-content-submit{
+    width: 25%;
+    margin: 20px auto;
+}
+.signup-list-content-submit button{
+    background-color: #ff7200;
+    height: 38px;
+    color: white;
+    font-size: 14px;
+    line-height: 38px;
+    width: 150px;
+    border: none;
+    outline: none;
+}
+.signup-list-content-submit button:hover{
+    background-color: #c96500;
+}
+.signup-message .contact{
+    border: 1px solid #dddddd
+}
+.signup-message .contact .top{
+    border-bottom: 1px solid #dddddd;
+    background-color: #f5f5f5;
+}
+
+.signup-list-content-form .sex {
+
+    line-height: 30px;
+}
+.signup-list-content-form .sex span{
+    margin-left: 0px;
+    position: absolute;
+    top:-4px;
+    left: 29px;
+}
+
+.signup-list-content-form .sex input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.signup-list-content-form .sex label {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    position: absolute;
+    left: 0;
+    top:3px;
+}
+.signup-list-content-form .sex input:checked+label {
+    background-color: white;
+    border: 1px solid #999;
+    background-image: url("../image/origin.jpg");
+    background-repeat: no-repeat;
+    background-size: 7px 7px;
+    background-position: center center;
+
+}
+
+.agree {
+    position: relative;
+}
+
+.agree input[type="checkbox"] {
+    width: 10px;
+    height: 18px;
+    opacity: 0;
+    font-size: 12px;
+}
+
+.agree label {
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 30%;
+}
+.agree input:checked+label {
+    background-color: white;
+    border: 3px solid #3f86d6;
+}
+
+.agree span{
+    font-size: 12px;
+    position: absolute;
+    top:0px;
+    left: 35px;
+    line-height: 25px;
+}
+.agree input:checked+label::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 15px;
+    top: -3px;
+    left: 4px;
+    border: 3px solid #3f86d6;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+}
+
+.signup-message .signup-right-content{
+    font-size: 12px;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    line-height: 31px;
+}
+.signup-message .signup-right-content .number{
+   color: red;
+}
+.signup-message .signup-right-content .width-word{
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+.signup-list-content .signup-list-content-form .signup-form-input span[class="star"]{
+    margin-left: 5px;
+    color: #be1100;
+    font-size: 14px;
+}
+.signup-list-content .signup-list-content-form .signup-form-input textarea {
+    width: 100%;
+    border: 1px solid #dddddd;
+    height: 80px;
+    padding:12px;
+    resize: none;
+}
+.signup-list-content .signup-list-content-form .sponsor-pay{
+    font-size: 12px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.signup-list-content .signup-list-content-form .signup-form-input .shop-name{
+    width: 45%;
+    height: 40px;
+    border: 1px solid #dddddd;
+    background-color: white
+}
+.signup-list-content .signup-list-content-form .signup-form-input .shop-count{
+    width: 25%;
+    height: 40px;
+    border: 1px solid #dddddd;
+    background-color: white
+}
+.signup-list-content .signup-list-content-form .price-style{
+   line-height: 40px;
+    color: #ff7200;
+    font-weight: bold;
+    font-size: 12px;
+}
+.signup-list-content .signup-list-content-form .signup-form-input .change-sponsor{
+    position: absolute;
+    right: 60px;
+    top: -10px;
+    line-height: 60px;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.ui-datepicker{
+    width:370px;
+}
+.signup-form-input select {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background-image: url('../image/arrow.png');
+    background-size:auto 20%;
+    background-repeat: no-repeat;
+    background-position:95%;
+    padding-left: 9px;
+}
+
+/*safari清除浏览器默认的input小人*/
+input::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}
